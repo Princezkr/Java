@@ -1,14 +1,13 @@
 import java.util.Scanner;
 public class Printer{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer N: ");
-        int N = scanner.nextInt();
+        int N = sc.nextInt();
         
         for (int i = 1; i <= N; i++) {
             System.out.println(i);
         }
-        
-        scanner.close();
+        sc.close();
     }
 }

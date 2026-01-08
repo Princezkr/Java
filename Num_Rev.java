@@ -11,5 +11,6 @@ public class Num_Rev {
             N=N/10;
         }
         System.out.println("Reversed Number Is:" + reversed);
+        scanner.close();
     }
 }
