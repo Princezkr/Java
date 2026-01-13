@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Array{
+    public static void main(String[] args){
+        int n;
+        System.out.print("Enter The Size Of The Array: ");
+        Scanner sc=new Scanner(System.in);
+        n=sc.nextInt();
+        int[] Arr=new int[n];
+        System.out.println("Enter The Elements Present In The Array: ");
+        for(int i=0; i<n; i++){
+            System.out.print("Element "+(i+1)+": ");
+            Arr[i]=sc.nextInt();
+        }
+        System.out.println("The Elements Present In The Array Are: ");
+        for(int i=0; i<n; i++){
+            System.out.print(Arr[i]+" ");
+        }
+        sc.close();
+    }
+}
