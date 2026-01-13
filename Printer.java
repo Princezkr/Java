@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class Printer{
+public class Printer {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
         System.out.print("Enter a positive integer N: ");
         int N = sc.nextInt();
         
@@ -9,5 +9,6 @@ public class Printer{
             System.out.println(i);
         }
         sc.close();
+    }
     }
 }
