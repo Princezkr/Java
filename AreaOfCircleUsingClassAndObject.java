@@ -20,7 +20,7 @@ public class AreaOfCircleUsingClassAndObject {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter The Radius Of Cirlce: ");
-        float radius=sc.nextFloat();
+        float radius=sc.nextFloat(); 
         Circle c1=new Circle(radius);
         c1.displayArea();
         c1.displayCircumference();
